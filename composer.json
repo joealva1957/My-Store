@@ -26,6 +26,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
         "drupal/devel": "^1.2",
+        "drupal/entityqueue": "^1.0",
         "drupal/libraries": "^3.0",
         "drupal/views_infinite_scroll": "^1.5",
         "drush/drush": "^9.0.0",
