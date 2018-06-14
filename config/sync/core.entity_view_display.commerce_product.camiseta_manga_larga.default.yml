@@ -1,0 +1,55 @@
+uuid: bb5e4917-bda7-4513-b9b6-c6aa1d4e9a91
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.camiseta_manga_larga
+    - field.field.commerce_product.camiseta_manga_larga.body
+    - field.field.commerce_product.camiseta_manga_larga.field_image
+    - field.field.commerce_product.camiseta_manga_larga.stores
+    - field.field.commerce_product.camiseta_manga_larga.variations
+  module:
+    - commerce_product
+    - image
+    - text
+id: commerce_product.camiseta_manga_larga.default
+targetEntityType: commerce_product
+bundle: camiseta_manga_larga
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 11
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 10
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

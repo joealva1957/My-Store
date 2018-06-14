@@ -1,0 +1,18 @@
+uuid: db356823-16da-4312-8c3f-fd7c49370e24
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Event
+type: event
+description: 'Use <i>Event</i> para organizar fiestas, planear reuniones y comunicar a la comunidad nombre, fechas, descripción e imágenes de las actividades sociales.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

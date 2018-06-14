@@ -1,0 +1,32 @@
+uuid: 22b675af-01bc-43dc-8980-f0d24d8bc002
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.color
+    - field.field.commerce_product_attribute_value.color.field_hex_value
+  module:
+    - color_field
+id: commerce_product_attribute_value.color.default
+targetEntityType: commerce_product_attribute_value
+bundle: color
+mode: default
+content:
+  field_hex_value:
+    weight: -4
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

@@ -7,7 +7,9 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  coffee: 0
   color: 0
+  color_field: 0
   comment: 0
   commerce: 0
   commerce_cart: 0
@@ -23,6 +25,8 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -35,6 +39,7 @@ module:
   history: 0
   image: 0
   inline_entity_form: 0
+  libraries: 0
   link: 0
   menu_ui: 0
   node: 0

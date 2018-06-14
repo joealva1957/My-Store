@@ -1,0 +1,23 @@
+uuid: f86522d1-dcaf-49ff-81e6-bf21d59d8a9c
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'administer nodes'
+  - 'create event content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any event content'
+  - 'delete event revisions'
+  - 'delete own event content'
+  - 'delete terms in tags'
+  - 'edit any event content'
+  - 'edit own event content'
+  - 'edit terms in tags'
+  - 'revert event revisions'
+  - 'view event revisions'
+  - 'view own unpublished content'

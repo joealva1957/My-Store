@@ -1,0 +1,10 @@
+uuid: 431759ac-bdfd-4cdc-9852-c8c35a0b4525
+langcode: en
+status: true
+dependencies: {  }
+id: manga_larga
+label: 'Manga larga'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

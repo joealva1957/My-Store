@@ -1,0 +1,11 @@
+uuid: 82d20424-7894-46bf-9bd0-2eeef77b5cd1
+langcode: en
+status: true
+dependencies: {  }
+id: camiseta_sin_manga
+label: 'Camiseta Sin manga'
+description: ''
+variationType: sin_manga
+injectVariationFields: true
+traits: {  }
+locked: false

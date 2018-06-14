@@ -1,0 +1,11 @@
+uuid: ac4e4b23-569f-4aae-b335-9762f3a2a454
+langcode: en
+status: true
+dependencies: {  }
+id: camiseta_manga_corta
+label: 'Camiseta Manga corta'
+description: ''
+variationType: manga_corta
+injectVariationFields: true
+traits: {  }
+locked: false

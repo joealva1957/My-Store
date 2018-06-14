@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8e4569333786600df4cb18281e3267b",
+    "content-hash": "a62ec3015d87daca57ca1b0e541fb3e4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1601,6 +1601,135 @@
             }
         },
         {
+            "name": "drupal/coffee",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/coffee",
+                "reference": "8.x-1.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/coffee-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "92631b9ea65298a057cc4143e0939bb156ef5e8d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev",
+                    "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1477414741",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Mol",
+                    "homepage": "https://www.drupal.org/u/michaelmol",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Marco",
+                    "homepage": "https://www.drupal.org/u/willzyx",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Oliver Köhler",
+                    "homepage": "https://www.drupal.org/u/nebel54",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Alli Price",
+                    "homepage": "https://www.drupal.org/u/heylookalive",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1356930/committers",
+                    "role": "contributor"
+                }
+            ],
+            "description": "Provides an Alfred like search box to navigate within your site.",
+            "homepage": "https://drupal.org/project/coffee",
+            "support": {
+                "source": "https://cgit.drupalcode.org/coffee",
+                "issues": "https://drupal.org/project/issues/coffee",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/color_field",
+            "version": "2.0.0-rc3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/color_field",
+                "reference": "b9ffa9032f997fd982d0c7692746e15da947c703"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/color_field-8.x-2.0-rc3.zip",
+                "reference": "b9ffa9032f997fd982d0c7692746e15da947c703",
+                "shasum": "85979aa1739dd42f413ad7437b19db08031587ae"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "suggest": {
+                "bower-asset/jquery-simple-color": "^v1.2.2: Provides JavaScript library necessary for the Color Grid widget",
+                "bower-asset/spectrum": "^1.8: Provides JavaScript library necessary for Spectrum widget."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-rc3",
+                    "datestamp": "1526529484",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "targoo",
+                    "homepage": "https://www.drupal.org/user/431910",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Nick Wilde",
+                    "homepage": "https://www.drupal.org/user/nickwilde",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides a color field type to store the color value and opacity",
+            "homepage": "https://www.drupal.org/project/color_field",
+            "support": {
+                "source": "http://cgit.drupalcode.org/color_field",
+                "issues": "https://www.drupal.org/project/issues/color_field?version=8.x"
+            }
+        },
+        {
             "name": "drupal/commerce",
             "version": "2.7.0",
             "source": {
@@ -2169,6 +2298,88 @@
             "time": "2018-04-25T15:39:01+00:00"
         },
         {
+            "name": "drupal/devel",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/devel",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "01f3349ef75f6e21fceef24be9d3d6506ca29647"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1507197844",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "homepage": "https://github.com/weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hans Salvisberg",
+                    "homepage": "https://www.drupal.org/u/salvis",
+                    "email": "drupal@salvisberg.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Luca Lusso",
+                    "homepage": "https://www.drupal.org/u/lussoluca",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Marco (willzyx)",
+                    "homepage": "https://www.drupal.org/u/willzyx",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/3236/committers"
+                },
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "support": {
+                "source": "http://cgit.drupalcode.org/devel",
+                "issues": "http://drupal.org/project/devel",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/entity",
             "version": "1.0.0-beta3",
             "source": {
@@ -2356,6 +2567,67 @@
             }
         },
         {
+            "name": "drupal/libraries",
+            "version": "3.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/libraries",
+                "reference": "8.x-3.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/libraries-8.x-3.0-alpha1.zip",
+                "reference": "8.x-3.0-alpha1",
+                "shasum": "bb07036b1eaeea7d736fc7e72416238830cd8d67"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha1",
+                    "datestamp": "1517046484",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pol",
+                    "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "rjacobs",
+                    "homepage": "https://www.drupal.org/user/422459"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tstoeckler",
+                    "homepage": "https://www.drupal.org/user/107158"
+                }
+            ],
+            "description": "Allows version-dependent and shared usage of external libraries in Drupal.",
+            "homepage": "http://drupal.org/project/libraries",
+            "support": {
+                "source": "http://cgit.drupalcode.org/libraries",
+                "issues": "http://drupal.org/project/issues/libraries",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/profile",
             "version": "1.0.0-rc1",
             "source": {
@@ -2516,6 +2788,57 @@
             "homepage": "https://www.drupal.org/project/state_machine",
             "support": {
                 "source": "http://cgit.drupalcode.org/state_machine"
+            }
+        },
+        {
+            "name": "drupal/views_infinite_scroll",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/views_infinite_scroll",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_infinite_scroll-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "fa19d65a9f6421fe64463b8b64169c6f13d423c3"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1503109444",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Remon",
+                    "homepage": "https://www.drupal.org/user/143827"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                }
+            ],
+            "description": "A pager which allows an infinite scroll effect for views.",
+            "homepage": "https://www.drupal.org/project/views_infinite_scroll",
+            "support": {
+                "source": "http://cgit.drupalcode.org/views_infinite_scroll"
             }
         },
         {

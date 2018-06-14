@@ -1,0 +1,10 @@
+uuid: 4ff7c5a1-935b-4195-a03b-c8f9aed3d10e
+langcode: en
+status: true
+dependencies: {  }
+id: sin_manga
+label: 'Sin manga'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

@@ -1,0 +1,21 @@
+uuid: 3b0955c3-48ca-4e03-97ab-c29743ab778f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.camiseta_manga_corta
+    - field.storage.commerce_product.stores
+id: commerce_product.camiseta_manga_corta.stores
+field_name: stores
+entity_type: commerce_product
+bundle: camiseta_manga_corta
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

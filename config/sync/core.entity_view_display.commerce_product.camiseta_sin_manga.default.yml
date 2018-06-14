@@ -1,0 +1,55 @@
+uuid: 1a5c6d4b-cfce-4d54-9e21-e81b85186e20
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.camiseta_sin_manga
+    - field.field.commerce_product.camiseta_sin_manga.body
+    - field.field.commerce_product.camiseta_sin_manga.field_image
+    - field.field.commerce_product.camiseta_sin_manga.stores
+    - field.field.commerce_product.camiseta_sin_manga.variations
+  module:
+    - commerce_product
+    - image
+    - text
+id: commerce_product.camiseta_sin_manga.default
+targetEntityType: commerce_product
+bundle: camiseta_sin_manga
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 3
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

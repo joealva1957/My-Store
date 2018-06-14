@@ -1,0 +1,11 @@
+uuid: 49a889da-eb31-478c-9363-db0e99be9d14
+langcode: en
+status: true
+dependencies: {  }
+id: camiseta_manga_larga
+label: 'Camiseta Manga larga'
+description: ''
+variationType: manga_larga
+injectVariationFields: true
+traits: {  }
+locked: false
