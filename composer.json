@@ -28,6 +28,8 @@
         "drupal/devel": "^1.2",
         "drupal/entityqueue": "^1.0",
         "drupal/libraries": "^3.0",
+        "drupal/page_manager": "^4.0",
+        "drupal/panelizer": "^4.1",
         "drupal/views_infinite_scroll": "^1.5",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
