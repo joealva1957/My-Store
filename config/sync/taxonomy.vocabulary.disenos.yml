@@ -1,9 +1,0 @@
-uuid: 8375ead3-72dd-49e8-91c8-5b1e24d6986d
-langcode: en
-status: true
-dependencies: {  }
-name: 'T-shirt design'
-vid: disenos
-description: 'A list of terms to relate t-shirt designs.'
-hierarchy: 0
-weight: 0

@@ -1,12 +1,10 @@
-uuid: caf6216c-83b2-4b2d-b1b0-c990540129ce
+uuid: 46410f46-b969-4bb7-a3a1-b97a83c8416a
 langcode: en
 status: true
 dependencies:
   module:
     - commerce_product
     - commerce_store
-_core:
-  default_config_hash: qzJaXjkjRd_-1CF6EnCb5fpCcA6mnBB34P4qOOQ6n9g
 id: commerce_product.stores
 field_name: stores
 entity_type: commerce_product

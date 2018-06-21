@@ -1,0 +1,10 @@
+uuid: 3402f58a-608d-48f3-84d9-4dbd0700af59
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.featured
+label: Featured
+targetEntityType: commerce_product
+cache: true

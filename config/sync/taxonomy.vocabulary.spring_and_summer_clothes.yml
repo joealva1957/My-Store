@@ -1,0 +1,9 @@
+uuid: 7e23d7bf-3103-40ed-8336-955e3b2c1abd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Spring and summer clothes'
+vid: spring_and_summer_clothes
+description: 'A vocabulary used to categorize spring and summer clothes.'
+hierarchy: 0
+weight: 0

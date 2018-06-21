@@ -1,0 +1,25 @@
+uuid: 32884154-de9c-45c6-9e51-d85e3bdedf97
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: featured_categories
+label: 'Featured categories'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: taxonomy_term
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      spring_and_summer_clothes: spring_and_summer_clothes
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 4
+  act_as_queue: true
+  reverse_in_admin: false
