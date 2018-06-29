@@ -1,0 +1,57 @@
+uuid: faf5f374-353f-471e-aaf5-d1de25856821
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contacto_confianza_transporte
+    - field.field.contact_message.contacto_confianza_transporte.field_empresa
+id: contact_message.contacto_confianza_transporte.default
+targetEntityType: contact_message
+bundle: contacto_confianza_transporte
+mode: default
+content:
+  copy:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_empresa:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 4
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,15 @@
+uuid: f8a41e5e-fa15-466e-af3c-533dd589b7c0
+langcode: en
+status: true
+dependencies: {  }
+name: main_slider
+label: 'Main Slider'
+effects:
+  6a818001-da9d-4363-97c7-7f13d1cff986:
+    uuid: 6a818001-da9d-4363-97c7-7f13d1cff986
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: 400
+      upscale: false

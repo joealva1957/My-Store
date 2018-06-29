@@ -1,0 +1,17 @@
+uuid: bef14bc0-9f8a-44b1-9ce0-64d2c1605827
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Image Categories'
+type: header_image_categories
+description: 'This content type could be used to post header image of categories.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

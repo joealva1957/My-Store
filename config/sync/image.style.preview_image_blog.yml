@@ -1,0 +1,14 @@
+uuid: 73453d15-4221-4ae2-9bfa-7766524a0a74
+langcode: en
+status: true
+dependencies: {  }
+name: preview_image_blog
+label: 'Image Blog (400x300)'
+effects:
+  e4a8d66a-c7f4-4ae8-8380-29eb4e510cbd:
+    uuid: e4a8d66a-c7f4-4ae8-8380-29eb4e510cbd
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300

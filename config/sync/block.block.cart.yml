@@ -1,0 +1,21 @@
+uuid: 6de50d15-3cb0-4f28-b95f-d38b5c600efd
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - mayo
+id: cart
+theme: mayo
+region: banner_top
+weight: -7
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

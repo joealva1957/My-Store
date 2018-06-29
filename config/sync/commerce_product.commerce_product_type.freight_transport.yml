@@ -1,0 +1,11 @@
+uuid: 0f919a34-bc61-4695-b8f6-5525c52b4ab9
+langcode: en
+status: true
+dependencies: {  }
+id: freight_transport
+label: 'Freight transport'
+description: ''
+variationType: freight_transport
+injectVariationFields: true
+traits: {  }
+locked: false

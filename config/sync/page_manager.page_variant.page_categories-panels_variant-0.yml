@@ -1,0 +1,61 @@
+uuid: ecf0c7b9-a274-49f5-86ae-14e235ec030a
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_categories
+    - views.view.all_product_list
+    - views.view.categories_header_image
+  module:
+    - ctools
+    - panels
+    - views
+id: page_categories-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    3c994309-e344-45e9-914a-fad194cee8da:
+      id: 'views_block:categories_header_image-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 3c994309-e344-45e9-914a-fad194cee8da
+      context_mapping: {  }
+    c9b7e916-e04e-4d33-82e4-bdc86d15a781:
+      id: 'views_block:all_product_list-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: c9b7e916-e04e-4d33-82e4-bdc86d15a781
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 4826e1f7-d5be-4b34-a6cc-1255b89aacf2
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: page_categories-panels_variant-0
+  builder: standard
+page: page_categories
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      transport: transport
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+selection_logic: and
+static_context: {  }

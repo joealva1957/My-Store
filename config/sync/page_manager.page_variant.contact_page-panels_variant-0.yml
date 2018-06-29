@@ -1,0 +1,53 @@
+uuid: d030ac54-a8c7-40d3-aa19-904bee1aa870
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contacto_confianza_transporte
+    - page_manager.page.contact_page
+    - views.view.header_image_contact
+  module:
+    - contact_block
+    - panels
+    - views
+id: contact_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    0a84c106-5260-471c-afb5-013f644ce0e9:
+      id: 'views_block:header_image_contact-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 0a84c106-5260-471c-afb5-013f644ce0e9
+      context_mapping: {  }
+    3cfeded9-9645-4e8b-a2e5-29ea3d049524:
+      id: contact_block
+      label: 'Contact block'
+      provider: contact_block
+      label_display: '0'
+      contact_form: contacto_confianza_transporte
+      region: content
+      weight: 1
+      uuid: 3cfeded9-9645-4e8b-a2e5-29ea3d049524
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 844d1eab-1b63-42f2-9f41-a1763a5bfa71
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: contact_page-panels_variant-0
+  builder: standard
+page: contact_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

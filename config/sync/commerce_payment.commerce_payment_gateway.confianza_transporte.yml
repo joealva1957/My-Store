@@ -1,0 +1,24 @@
+uuid: d9807cf1-15c6-42eb-a3f9-3ba360a054a0
+langcode: en
+status: true
+dependencies: {  }
+id: confianza_transporte
+label: 'Confianza Transporte'
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions:
+  -
+    plugin: order_customer_role
+    configuration:
+      roles:
+        - anonymous
+        - authenticated
+conditionOperator: AND

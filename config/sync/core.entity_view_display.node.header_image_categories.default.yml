@@ -1,0 +1,28 @@
+uuid: c3a85275-f50f-40c9-9b57-10b6fa66e75c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_image_categories.field_header_image
+    - node.type.header_image_categories
+  module:
+    - image
+    - user
+id: node.header_image_categories.default
+targetEntityType: node
+bundle: header_image_categories
+mode: default
+content:
+  field_header_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

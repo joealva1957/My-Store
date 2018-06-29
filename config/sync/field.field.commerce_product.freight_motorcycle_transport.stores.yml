@@ -1,0 +1,21 @@
+uuid: a5e5df57-1441-4adc-84c4-96940a856f51
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.freight_motorcycle_transport
+    - field.storage.commerce_product.stores
+id: commerce_product.freight_motorcycle_transport.stores
+field_name: stores
+entity_type: commerce_product
+bundle: freight_motorcycle_transport
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,12 @@
+uuid: 17405a6d-172d-4190-aae9-ed6c1432449a
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - joealva1957@gmail.com
+reply: ''
+weight: 0
+message: 'Soon we will be in contact'
+redirect: /contact

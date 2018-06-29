@@ -1,0 +1,24 @@
+uuid: 55ba0f3c-5177-46e1-83a6-38d5570913aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.freight_transport
+    - commerce_product.commerce_product_variation_type.freight_transport
+    - field.storage.commerce_product.variations
+id: commerce_product.freight_transport.variations
+field_name: variations
+entity_type: commerce_product
+bundle: freight_transport
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - freight_transport
+field_type: entity_reference

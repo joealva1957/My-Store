@@ -1,0 +1,10 @@
+uuid: 10e3ba1f-b566-460b-9402-9f4efd5d910f
+langcode: en
+status: true
+dependencies: {  }
+id: freight_motorcycle_transport
+label: 'Freight motorcycle transport'
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

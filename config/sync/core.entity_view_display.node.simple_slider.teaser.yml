@@ -1,0 +1,20 @@
+uuid: 65d1cfd0-0018-490f-a2e9-29e32d47884d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.simple_slider.field_simple_image
+    - node.type.simple_slider
+  module:
+    - user
+id: node.simple_slider.teaser
+targetEntityType: node
+bundle: simple_slider
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_simple_image: true

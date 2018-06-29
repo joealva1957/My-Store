@@ -1,0 +1,7 @@
+uuid: 469221b6-cc46-43d2-8a70-4640589a05c0
+langcode: en
+status: true
+dependencies: {  }
+id: number_of_seats
+label: 'Number of seats'
+elementType: radios

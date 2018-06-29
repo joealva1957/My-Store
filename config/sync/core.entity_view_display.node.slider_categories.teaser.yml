@@ -1,0 +1,18 @@
+uuid: 8d0fdda6-6085-480e-989d-151a6bd8cbc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.slider_categories
+  module:
+    - user
+id: node.slider_categories.teaser
+targetEntityType: node
+bundle: slider_categories
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

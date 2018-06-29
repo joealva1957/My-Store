@@ -1,0 +1,17 @@
+uuid: ea040e03-0607-497c-b19c-4c5dc8c141af
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Personal Information'
+type: personal_information
+description: 'This content should be used to add personal information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

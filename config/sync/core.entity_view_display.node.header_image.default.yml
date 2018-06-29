@@ -1,0 +1,38 @@
+uuid: 88412152-16a0-4fd0-877b-086f97287123
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_image.field_header_image
+    - image.style.header_image
+    - node.type.header_image
+  module:
+    - image
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.header_image.default
+targetEntityType: node
+bundle: header_image
+mode: default
+content:
+  field_header_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: header_image
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,28 @@
+uuid: ecac6561-c623-4a0b-9cbf-0179ddd09600
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.personal_information.body
+    - node.type.personal_information
+  module:
+    - text
+    - user
+id: node.personal_information.teaser
+targetEntityType: node
+bundle: personal_information
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

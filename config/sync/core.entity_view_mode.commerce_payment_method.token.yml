@@ -1,0 +1,10 @@
+uuid: 0d5be235-2dc2-43fb-b523-b46884ca0a15
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment
+id: commerce_payment_method.token
+label: Token
+targetEntityType: commerce_payment_method
+cache: true

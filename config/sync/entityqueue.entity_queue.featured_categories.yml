@@ -13,13 +13,13 @@ entity_settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      spring_and_summer_clothes: spring_and_summer_clothes
+      transport: transport
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: spring_and_summer_clothes
 queue_settings:
-  min_size: 0
-  max_size: 4
+  min_size: 1
+  max_size: 3
   act_as_queue: true
   reverse_in_admin: false

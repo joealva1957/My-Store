@@ -1,0 +1,7 @@
+uuid: 7f5dab44-c8fb-4de7-8422-194f3bcec105
+langcode: en
+status: true
+dependencies: {  }
+id: payload_capacity
+label: 'Payload capacity'
+elementType: radios

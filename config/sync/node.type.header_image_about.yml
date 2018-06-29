@@ -1,0 +1,17 @@
+uuid: 9ce24487-0dbd-46a4-ae06-425f9acd049b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Image About'
+type: header_image_about
+description: 'This content type should be used to change header image of about page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

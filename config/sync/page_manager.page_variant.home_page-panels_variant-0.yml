@@ -1,0 +1,84 @@
+uuid: 0b7e2525-2aa5-467d-ada1-4908a5ed2172
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home_page
+    - views.view.carousel_featured_products
+    - views.view.featured_categories
+    - views.view.view_slider
+  module:
+    - drupal_itm_demos
+    - panels
+    - views
+id: home_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    3dcf0b1e-ded4-49ea-b405-91237b9108c7:
+      id: 'views_block:carousel_featured_products-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 3dcf0b1e-ded4-49ea-b405-91237b9108c7
+      context_mapping: {  }
+    e30f1917-6897-42ed-b8b5-4c8c74613897:
+      id: 'views_block:view_slider-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: middle
+      weight: -2
+      uuid: e30f1917-6897-42ed-b8b5-4c8c74613897
+      context_mapping: {  }
+    ae5e97a2-3433-4d47-bf1d-87b3d99bf54c:
+      id: 'views_block:featured_categories-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: middle
+      weight: -1
+      uuid: ae5e97a2-3433-4d47-bf1d-87b3d99bf54c
+      context_mapping: {  }
+    4bc7df73-d6a0-4fab-a9ec-8b17b3b24173:
+      id: information_block
+      label: 'Information block'
+      provider: drupal_itm_demos
+      label_display: visible
+      region: first_below
+      weight: -10
+      uuid: 4bc7df73-d6a0-4fab-a9ec-8b17b3b24173
+      context_mapping: {  }
+    fdbd2843-1e75-4fd9-8ecf-53bad0fe531c:
+      id: subscribe_block
+      label: 'Subscribe block'
+      provider: drupal_itm_demos
+      label_display: visible
+      region: second_below
+      weight: -2
+      uuid: fdbd2843-1e75-4fd9-8ecf-53bad0fe531c
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 3184853c-714d-4185-a0d0-f7641e404a9a
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home_page-panels_variant-0
+  builder: standard
+page: home_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,4 +1,4 @@
-uuid: 5c11a10a-0d64-48c8-83fb-e1243ee5094c
+uuid: dcb2d78e-5beb-4549-a600-62dae4e5cdad
 langcode: en
 status: true
 dependencies:
@@ -13,11 +13,12 @@ entity_settings:
   handler: 'default:commerce_product'
   handler_settings:
     target_bundles:
-      t_shirt: t_shirt
+      freight_transport: freight_transport
+      people_transport: people_transport
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: t_shirt
+    auto_create_bundle: freight_transport
 queue_settings:
   min_size: 0
   max_size: 0

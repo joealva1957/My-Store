@@ -1,0 +1,20 @@
+uuid: 7e32896b-bd6d-4545-baf8-3409eb45a252
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.header_image_contact.field_header_image
+    - node.type.header_image_contact
+  module:
+    - user
+id: node.header_image_contact.teaser
+targetEntityType: node
+bundle: header_image_contact
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_header_image: true

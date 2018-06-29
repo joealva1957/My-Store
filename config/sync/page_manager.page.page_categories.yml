@@ -1,0 +1,16 @@
+uuid: 4501237d-8133-4c1d-8054-eaf81791853f
+langcode: en
+status: true
+dependencies: {  }
+id: page_categories
+label: 'Page Categories'
+description: ''
+use_admin_theme: false
+path: '/taxonomy/term/{taxonomy_term}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  taxonomy_term:
+    machine_name: taxonomy_term
+    type: 'entity:taxonomy_term'
+    label: 'Taxonomy term'

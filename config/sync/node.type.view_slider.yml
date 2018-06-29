@@ -1,0 +1,17 @@
+uuid: d08c6d69-803e-4d28-bbef-f8b20acb37cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'View slider'
+type: view_slider
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

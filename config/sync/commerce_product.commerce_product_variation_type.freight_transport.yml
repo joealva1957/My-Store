@@ -1,0 +1,10 @@
+uuid: 42fc2744-ffb5-46f9-912f-a3cb6830dc2c
+langcode: en
+status: true
+dependencies: {  }
+id: freight_transport
+label: 'Freight transport'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

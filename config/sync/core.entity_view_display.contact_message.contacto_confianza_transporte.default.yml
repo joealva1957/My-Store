@@ -1,0 +1,28 @@
+uuid: 8ca8cf80-b47b-4ec5-a6f5-181026dd6178
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contacto_confianza_transporte
+    - field.field.contact_message.contacto_confianza_transporte.field_empresa
+id: contact_message.contacto_confianza_transporte.default
+targetEntityType: contact_message
+bundle: contacto_confianza_transporte
+mode: default
+content:
+  field_empresa:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: basic_string
+    weight: 1
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

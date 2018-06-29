@@ -1,0 +1,18 @@
+uuid: da96a28f-e508-4d77-962d-e782742992f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.header_image_categories
+  module:
+    - user
+id: node.header_image_categories.teaser
+targetEntityType: node
+bundle: header_image_categories
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,26 @@
+uuid: f006d1e2-bc7d-472d-9a48-d41be22a9551
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.personal_information.body
+    - node.type.personal_information
+  module:
+    - text
+    - user
+id: node.personal_information.default
+targetEntityType: node
+bundle: personal_information
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

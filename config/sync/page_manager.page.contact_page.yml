@@ -1,0 +1,12 @@
+uuid: 06de4fba-eb4e-4152-a381-66b8ccf6c494
+langcode: en
+status: true
+dependencies: {  }
+id: contact_page
+label: 'Contact page'
+description: ''
+use_admin_theme: false
+path: /contact
+access_logic: and
+access_conditions: {  }
+parameters: {  }

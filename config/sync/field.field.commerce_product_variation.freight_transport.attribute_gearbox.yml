@@ -1,0 +1,24 @@
+uuid: 6361e42a-f3c1-419e-aea3-902f1e295977
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.gearbox
+    - commerce_product.commerce_product_variation_type.freight_transport
+    - field.storage.commerce_product_variation.attribute_gearbox
+id: commerce_product_variation.freight_transport.attribute_gearbox
+field_name: attribute_gearbox
+entity_type: commerce_product_variation
+bundle: freight_transport
+label: Gearbox
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - gearbox
+field_type: entity_reference

@@ -1,0 +1,14 @@
+uuid: 321b8c1e-a71d-47cc-8f5d-cb8d17a817bf
+langcode: en
+status: true
+dependencies: {  }
+name: header_image
+label: 'Header Image (1920x400)'
+effects:
+  961d1e45-95d2-46e0-a0ae-2ec4ef324f8c:
+    uuid: 961d1e45-95d2-46e0-a0ae-2ec4ef324f8c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 400

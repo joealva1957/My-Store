@@ -1,0 +1,25 @@
+uuid: f5f72c6c-19e2-4abc-bd96-32557cda3c16
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: featured_types_of_transportation
+label: 'Featured Types of Transportation'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: taxonomy_term
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      types_of_transportation: types_of_transportation
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: tags
+queue_settings:
+  min_size: 0
+  max_size: 4
+  act_as_queue: false
+  reverse_in_admin: false

@@ -1,0 +1,22 @@
+uuid: cac4d9ac-df32-4b22-afdd-911cab781413
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.freight_transport
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.freight_transport.body
+field_name: body
+entity_type: commerce_product
+bundle: freight_transport
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,12 @@
+uuid: 115604fd-6f7a-499b-80f5-c6cc3f655e62
+langcode: en
+status: true
+dependencies: {  }
+id: contacto_confianza_transporte
+label: 'Contacto Confianza Transporte'
+recipients:
+  - joealva1957@gmail.com
+reply: ''
+weight: 0
+message: 'Ingrese el mensaje'
+redirect: ''

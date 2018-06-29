@@ -1,0 +1,17 @@
+uuid: ba82c862-4b5f-453d-a655-423ac896e59d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Slider Image and Information'
+type: slider_image_and_information
+description: 'This is a content type of images and web site information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

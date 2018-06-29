@@ -1,0 +1,17 @@
+uuid: f2362f09-db22-4162-9245-97303a0ad88e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Image Contact'
+type: header_image_contact
+description: 'This content type should be used to add a header image for the contact page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

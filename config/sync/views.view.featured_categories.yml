@@ -1,17 +1,18 @@
-uuid: f12df604-470d-49ba-a302-18b55c2e8fac
+uuid: 10da0dad-2f9b-4644-b1b6-329770e644e6
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.t_shirt
-    - field.storage.commerce_product.field_category
+    - commerce_product.commerce_product_type.freight_transport
+    - core.entity_view_mode.commerce_product.featured
+    - entityqueue.entity_queue.featured_products
+    - field.storage.commerce_product.field_category_transport
   module:
     - commerce
     - commerce_product
     - entityqueue
-    - taxonomy
 id: featured_categories
-label: 'Featured categories'
+label: 'Featured Categories'
 module: views
 description: ''
 tag: ''
@@ -55,17 +56,26 @@ display:
           items_per_page: 0
           offset: 0
       style:
-        type: default
+        type: grid
         options:
           grouping:
             -
-              field: field_category
+              field: field_category_transport
               rendered: true
               rendered_strip: false
-          row_class: ''
-          default_row_class: true
+          uses_fields: true
+          columns: 4
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
       row:
-        type: fields
+        type: 'entity:commerce_product'
+        options:
+          relationship: none
+          view_mode: featured
       fields:
         title:
           table: commerce_product_field_data
@@ -131,14 +141,14 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_category:
-          id: field_category
-          table: commerce_product__field_category
-          field: field_category
+        field_category_transport:
+          id: field_category_transport
+          table: commerce_product__field_category_transport
+          field: field_category_transport
           relationship: none
           group_type: group
           admin_label: ''
-          label: Category
+          label: ''
           exclude: false
           alter:
             alter_text: false
@@ -171,7 +181,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: true
+          element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -211,35 +221,26 @@ display:
           table: commerce_product_field_data
           field: type
           value:
-            t_shirt: t_shirt
+            freight_transport: freight_transport
           entity_type: commerce_product
           entity_field: type
           plugin_id: commerce_entity_bundle
       sorts: {  }
-      title: 'Featured categories products'
+      title: 'Featured Categories'
       header: {  }
       footer: {  }
       empty: {  }
       relationships:
-        field_category:
-          id: field_category
-          table: commerce_product__field_category
-          field: field_category
-          relationship: none
-          group_type: group
-          admin_label: 'field_category: Taxonomy term'
-          required: true
-          plugin_id: standard
         entityqueue_relationship:
           id: entityqueue_relationship
-          table: taxonomy_term_field_data
+          table: commerce_product_field_data
           field: entityqueue_relationship
-          relationship: field_category
+          relationship: none
           group_type: group
-          admin_label: 'Taxonomy term queue'
-          required: true
-          limit_queue: null
-          entity_type: taxonomy_term
+          admin_label: 'Product queue'
+          required: false
+          limit_queue: featured_products
+          entity_type: commerce_product
           plugin_id: entity_queue
       arguments: {  }
       display_extenders: {  }
@@ -249,7 +250,10 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
       tags:
-        - 'config:field.storage.commerce_product.field_category'
+        - 'config:entityqueue.entity_queue.featured_products'
+        - 'config:field.storage.commerce_product.field_category_transport'
+        - entity_field_info
+        - views_data
   block_1:
     display_plugin: block
     id: block_1
@@ -263,4 +267,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
       tags:
-        - 'config:field.storage.commerce_product.field_category'
+        - 'config:entityqueue.entity_queue.featured_products'
+        - 'config:field.storage.commerce_product.field_category_transport'
+        - entity_field_info
+        - views_data

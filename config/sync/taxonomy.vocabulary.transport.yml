@@ -1,0 +1,9 @@
+uuid: 02ad2ff3-0863-4189-b694-3c262f5db2ef
+langcode: en
+status: true
+dependencies: {  }
+name: Transport
+vid: transport
+description: 'This has to be used to categorize types of transport'
+hierarchy: 0
+weight: 0

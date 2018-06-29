@@ -1,0 +1,14 @@
+uuid: 26da4976-09a4-432b-b4c6-33e387602c7e
+langcode: en
+status: true
+dependencies: {  }
+name: mision_and_vision
+label: 'Mision and Vision'
+effects:
+  20365b1e-7da9-43a8-92df-edb608c95370:
+    uuid: 20365b1e-7da9-43a8-92df-edb608c95370
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 400

@@ -1,0 +1,20 @@
+uuid: fb321bd3-4236-4b5e-8d0b-abfc56bad09a
+langcode: en
+status: false
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - mayo
+id: subscribeblock
+theme: mayo
+region: footer_column_first
+weight: 0
+provider: null
+plugin: subscribe_block
+settings:
+  id: subscribe_block
+  label: 'Subscribe block'
+  provider: drupal_itm_demos
+  label_display: visible
+visibility: {  }

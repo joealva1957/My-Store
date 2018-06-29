@@ -1,0 +1,65 @@
+uuid: ba7dd4aa-2991-43d3-bcf4-fc71ba8fdb30
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.about_page
+    - views.view.header_image_about
+    - views.view.personal_information
+    - views.view.slider_mission_and_vision
+  module:
+    - panels
+    - views
+id: about_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    6a8f1b15-94fc-4021-8fc0-99b4862f7045:
+      id: 'views_block:header_image_about-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: 6a8f1b15-94fc-4021-8fc0-99b4862f7045
+      context_mapping: {  }
+    8b276f86-5d72-4c44-a512-b5fe03c61d64:
+      id: 'views_block:slider_mission_and_vision-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 8b276f86-5d72-4c44-a512-b5fe03c61d64
+      context_mapping: {  }
+    39713f4b-6c1b-4b28-ba20-7fea3453ee6c:
+      id: 'views_block:personal_information-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 39713f4b-6c1b-4b28-ba20-7fea3453ee6c
+      context_mapping: {  }
+  id: panels_variant
+  uuid: f0c4bc6f-c15c-46c6-826a-1a167d41e900
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: about_page-panels_variant-0
+  builder: standard
+page: about_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

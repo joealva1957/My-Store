@@ -1,0 +1,7 @@
+uuid: 76545ffe-a43f-431f-ae40-0e86e32a2f78
+langcode: en
+status: true
+dependencies: {  }
+id: gearbox
+label: Gearbox
+elementType: radios

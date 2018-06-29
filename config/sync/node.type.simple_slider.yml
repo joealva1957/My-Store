@@ -1,0 +1,17 @@
+uuid: d8d10af8-b7da-4889-a8f1-81b10fd95414
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Simple Slider'
+type: simple_slider
+description: 'This content should be used to display images as a slider.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

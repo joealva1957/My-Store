@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Blog post'
 type: blog_post
-description: ''
+description: 'This content type has to be used to add new content to the blog.'
 help: ''
 new_revision: true
 preview_mode: 1
