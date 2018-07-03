@@ -22,7 +22,9 @@
         "drupal/addtoany": "^1.9",
         "drupal/admin_toolbar": "^1.24",
         "drupal/better_exposed_filters": "^3.0",
+        "drupal/bootstrap_barrio": "^4.14",
         "drupal/bootstrap_library": "^1.11",
+        "drupal/bootstrap_sass": "^1.5",
         "drupal/calendar": "1.x-dev",
         "drupal/coffee": "^1.0",
         "drupal/color_field": "^2.0",
@@ -84,6 +86,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
-        }
+        },
+	"patches": {
+          "drupal/migrate_tools": {
+            "Port commands to drush 9": "https://www.drupal.org/files/issues/migrate_tools-2914005-41.patch"
+          }
+	}
     }
 }
