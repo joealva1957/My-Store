@@ -1,0 +1,22 @@
+uuid: 70ffab77-0a3c-4951-a4e9-532e457649f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.header_image_category_truck
+id: node.header_image_category_truck.promote
+field_name: promote
+entity_type: node
+bundle: header_image_category_truck
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

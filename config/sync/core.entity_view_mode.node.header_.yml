@@ -1,0 +1,10 @@
+uuid: 7001cd89-17cd-412a-998c-e6aa73eab422
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.header_
+label: 'Header Image'
+targetEntityType: node
+cache: true

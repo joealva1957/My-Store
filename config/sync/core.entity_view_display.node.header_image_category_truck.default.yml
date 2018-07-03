@@ -1,0 +1,37 @@
+uuid: 5b37b37e-2bff-4780-ae63-59445d47c80e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_image_category_truck.field_header_image_category_truc
+    - node.type.header_image_category_truck
+  module:
+    - image
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.header_image_category_truck.default
+targetEntityType: node
+bundle: header_image_category_truck
+mode: default
+content:
+  field_header_image_category_truc:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

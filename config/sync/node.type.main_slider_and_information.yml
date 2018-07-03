@@ -1,0 +1,17 @@
+uuid: 1b9ca2f9-5825-43d8-87c0-dd76dc76a1e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Main Slider and Information'
+type: main_slider_and_information
+description: 'This content type should be used to display Main Slider and Information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

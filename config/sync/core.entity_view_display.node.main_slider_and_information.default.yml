@@ -1,0 +1,46 @@
+uuid: ccceefc4-c228-48ed-b6db-c13b6394ca06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.main_slider_and_information.body
+    - field.field.node.main_slider_and_information.field_image_main_slider
+    - node.type.main_slider_and_information
+  module:
+    - image
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.main_slider_and_information.default
+targetEntityType: node
+bundle: main_slider_and_information
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_main_slider:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

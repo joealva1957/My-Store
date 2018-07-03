@@ -15,9 +15,9 @@ dependencies:
     - flexslider_views
     - image
 id: carousel_featured_products
-label: 'Carousel Featured products'
+label: 'Carousel Featured Products'
 module: views
-description: 'This view display featured products'
+description: 'This view display featured products.'
 tag: ''
 base_table: commerce_product_field_data
 base_field: product_id
@@ -158,7 +158,7 @@ display:
           entity_field: type
           plugin_id: commerce_entity_bundle
       sorts: {  }
-      title: 'Carousel Featured products'
+      title: 'Carousel Featured Products'
       header: {  }
       footer: {  }
       empty: {  }

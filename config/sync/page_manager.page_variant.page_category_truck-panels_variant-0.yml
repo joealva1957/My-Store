@@ -1,0 +1,65 @@
+uuid: d9394c3d-4ce9-4700-b431-bed3e6cca224
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_category_truck
+    - views.view.all_product_list_truck_category
+    - views.view.header_image_category_truck
+    - views.view.three_featured_products
+  module:
+    - panels
+    - views
+id: page_category_truck-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    7b61ff04-20f6-4240-b38f-73d72c06360d:
+      id: 'views_block:three_featured_products-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 7b61ff04-20f6-4240-b38f-73d72c06360d
+      context_mapping: {  }
+    b63ac155-050c-4168-a86f-c0456f5613e6:
+      id: 'views_block:all_product_list_truck_category-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: b63ac155-050c-4168-a86f-c0456f5613e6
+      context_mapping: {  }
+    984b5504-3e73-406f-a318-80d5fe85af62:
+      id: 'views_block:header_image_category_truck-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 984b5504-3e73-406f-a318-80d5fe85af62
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 7cd75a17-5a0e-41a7-a8fa-a1161ce90a39
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: page_category_truck-panels_variant-0
+  builder: standard
+page: page_category_truck
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

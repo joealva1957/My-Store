@@ -1,0 +1,17 @@
+uuid: caa4df4b-25ec-423f-b7f4-8d4da93e4f00
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Main Slider'
+type: main_slider
+description: 'This content type can be used to add slides and related information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

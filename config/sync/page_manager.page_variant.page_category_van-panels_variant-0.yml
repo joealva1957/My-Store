@@ -1,0 +1,65 @@
+uuid: 5205ac32-019c-4a37-b2cc-c9330e2c6f8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_category_van
+    - views.view.all_product_list_van_category
+    - views.view.header_image_category_van
+    - views.view.three_featured_products_van_category
+  module:
+    - panels
+    - views
+id: page_category_van-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    4d0c5266-2a0a-4ce9-b0bc-89b1c6476844:
+      id: 'views_block:header_image_category_van-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: 4d0c5266-2a0a-4ce9-b0bc-89b1c6476844
+      context_mapping: {  }
+    27cf0042-ab1e-497b-969c-0092940e5fab:
+      id: 'views_block:three_featured_products_van_category-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 27cf0042-ab1e-497b-969c-0092940e5fab
+      context_mapping: {  }
+    d35291ee-6165-445f-bc64-5b7e054f107c:
+      id: 'views_block:all_product_list_van_category-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: d35291ee-6165-445f-bc64-5b7e054f107c
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 30be057f-53b9-4e46-9167-13d28bad0cb6
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: page_category_van-panels_variant-0
+  builder: standard
+page: page_category_van
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

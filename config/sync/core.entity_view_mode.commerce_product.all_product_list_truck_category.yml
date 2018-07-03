@@ -1,0 +1,10 @@
+uuid: b48532eb-6c72-4776-a629-286c77d7b1a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.all_product_list_truck_category
+label: 'All Product List Truck Category'
+targetEntityType: commerce_product
+cache: true

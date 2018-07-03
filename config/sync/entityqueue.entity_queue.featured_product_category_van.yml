@@ -1,0 +1,25 @@
+uuid: ea5ccca0-28e6-439e-bb8b-0008d6316b00
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: featured_product_category_van
+label: 'Featured Product Category Van'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: commerce_product
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      freight_transport: freight_transport
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 3
+  act_as_queue: false
+  reverse_in_admin: false

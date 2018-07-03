@@ -1,0 +1,17 @@
+uuid: 6d5cd1ae-f635-43c3-a429-ac7589b20601
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Image Category Van'
+type: header_image_category_van
+description: 'This content type should be used to display product of category van.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

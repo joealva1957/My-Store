@@ -1,0 +1,30 @@
+uuid: 29ef5381-0810-47b1-acea-c1558ee8b85f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.freight_transport
+    - field.field.commerce_product_variation.freight_transport.attribute_gearbox
+    - field.field.commerce_product_variation.freight_transport.attribute_payload_capacity
+  module:
+    - commerce_price
+id: commerce_product_variation.freight_transport.default
+targetEntityType: commerce_product_variation
+bundle: freight_transport
+mode: default
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_gearbox: true
+  attribute_payload_capacity: true
+  product_id: true
+  sku: true
+  title: true

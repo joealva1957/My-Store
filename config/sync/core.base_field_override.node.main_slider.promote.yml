@@ -1,0 +1,22 @@
+uuid: c9db63c4-bbee-4e94-bafa-910c26fcc49a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.main_slider
+id: node.main_slider.promote
+field_name: promote
+entity_type: node
+bundle: main_slider
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

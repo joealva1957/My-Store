@@ -1,0 +1,12 @@
+uuid: 57b345e5-8c31-4b0f-bcd9-b870288be2a9
+langcode: en
+status: true
+dependencies: {  }
+id: page_category_van
+label: 'Page Category Van'
+description: ''
+use_admin_theme: false
+path: /van
+access_logic: and
+access_conditions: {  }
+parameters: {  }

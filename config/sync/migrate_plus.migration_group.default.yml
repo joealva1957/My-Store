@@ -1,0 +1,10 @@
+uuid: 6faf1016-4005-4cdc-acb9-4aa64522259e
+langcode: en
+status: true
+dependencies: {  }
+id: default
+label: default
+description: ''
+source_type: csv
+module: null
+shared_configuration: null

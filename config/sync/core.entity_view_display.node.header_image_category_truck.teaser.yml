@@ -1,0 +1,18 @@
+uuid: ef2f29cc-49dd-4360-a273-4dd144344969
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.header_image_category_truck
+  module:
+    - user
+id: node.header_image_category_truck.teaser
+targetEntityType: node
+bundle: header_image_category_truck
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

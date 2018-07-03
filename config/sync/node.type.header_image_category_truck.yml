@@ -1,0 +1,17 @@
+uuid: a746a2d7-bc3d-4f21-b24a-129cb06108b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Header Image Category Truck'
+type: header_image_category_truck
+description: 'This content type should be used to display product of category truck.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

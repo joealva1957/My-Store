@@ -1,0 +1,10 @@
+uuid: 8586452a-b7f6-489d-aedc-208d16527a11
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.three_featured_products
+label: 'Three Featured Products'
+targetEntityType: commerce_product
+cache: true

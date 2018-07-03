@@ -1,0 +1,28 @@
+uuid: 6cbd2f14-3436-47c0-b7dd-74418bacd987
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.header_image_category_van.field_header_image_category_van
+    - node.type.header_image_category_van
+  module:
+    - image
+    - user
+id: node.header_image_category_van.default
+targetEntityType: node
+bundle: header_image_category_van
+mode: default
+content:
+  field_header_image_category_van:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

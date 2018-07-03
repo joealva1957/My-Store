@@ -7,7 +7,14 @@ dependencies:
     - node.type.view_slider
   module:
     - image
+    - panelizer
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.view_slider.default
 targetEntityType: node
 bundle: view_slider
@@ -25,4 +32,6 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

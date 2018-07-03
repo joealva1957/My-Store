@@ -6,6 +6,7 @@ module:
   big_pipe: 0
   block: 0
   block_content: 0
+  bootstrap_library: 0
   breakpoint: 0
   calendar: 0
   calendar_datetime: 0
@@ -54,6 +55,10 @@ module:
   libraries: 0
   link: 0
   menu_ui: 0
+  migrate: 0
+  migrate_plus: 0
+  migrate_source_csv: 0
+  migrate_tools: 0
   node: 0
   options: 0
   page_cache: 0
@@ -90,6 +95,9 @@ theme:
   bartik: 0
   seven: 0
   mayo: 0
+  bootstrap_barrio: 0
+  bootstrap_sass: 0
+  bootstrap_barrio_subtheme: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

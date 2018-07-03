@@ -10,7 +10,7 @@ id: commerce_product.freight_transport.field_category_transport
 field_name: field_category_transport
 entity_type: commerce_product
 bundle: freight_transport
-label: 'Category transport'
+label: Category
 description: ''
 required: true
 translatable: false

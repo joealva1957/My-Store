@@ -6,7 +6,7 @@ dependencies:
     - page_manager.page.home_page
     - views.view.carousel_featured_products
     - views.view.featured_categories
-    - views.view.view_slider
+    - views.view.main_slider_and_information
   module:
     - drupal_itm_demos
     - panels
@@ -26,17 +26,6 @@ variant_settings:
       region: top
       weight: 0
       uuid: 3dcf0b1e-ded4-49ea-b405-91237b9108c7
-      context_mapping: {  }
-    e30f1917-6897-42ed-b8b5-4c8c74613897:
-      id: 'views_block:view_slider-block_1'
-      label: ''
-      provider: views
-      label_display: '0'
-      views_label: ''
-      items_per_page: none
-      region: middle
-      weight: -2
-      uuid: e30f1917-6897-42ed-b8b5-4c8c74613897
       context_mapping: {  }
     ae5e97a2-3433-4d47-bf1d-87b3d99bf54c:
       id: 'views_block:featured_categories-block_1'
@@ -66,6 +55,17 @@ variant_settings:
       region: second_below
       weight: -2
       uuid: fdbd2843-1e75-4fd9-8ecf-53bad0fe531c
+      context_mapping: {  }
+    eff655a9-631a-4f28-9475-7cf6f6e52179:
+      id: 'views_block:main_slider_and_information-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: middle
+      weight: -2
+      uuid: eff655a9-631a-4f28-9475-7cf6f6e52179
       context_mapping: {  }
   id: panels_variant
   uuid: 3184853c-714d-4185-a0d0-f7641e404a9a

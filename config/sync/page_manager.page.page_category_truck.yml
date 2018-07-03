@@ -1,0 +1,12 @@
+uuid: 9862432e-a3d7-4965-8e4e-efa32fa53a4b
+langcode: en
+status: true
+dependencies: {  }
+id: page_category_truck
+label: 'Page Category Truck'
+description: ''
+use_admin_theme: false
+path: /truck
+access_logic: and
+access_conditions: {  }
+parameters: {  }

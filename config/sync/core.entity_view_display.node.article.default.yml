@@ -8,13 +8,19 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
   module:
     - comment
     - image
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
 id: node.article.default
@@ -48,7 +54,7 @@ content:
     weight: -1
     region: content
     settings:
-      image_style: large
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
     label: hidden
